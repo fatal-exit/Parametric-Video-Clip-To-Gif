@@ -20,6 +20,8 @@ media/
 
 - `video_to_gif_gui.py`: Tkinter desktop UI
 - `video_to_gif.py`: command-line script and shared conversion logic
+- `open_gui.bat`: Windows launcher for the GUI
+- `open_gui.sh`: macOS/Linux launcher for the GUI
 
 ## GUI Usage
 
@@ -27,6 +29,16 @@ Run:
 
 ```powershell
 python video_to_gif_gui.py
+```
+
+Or use the launcher script for your platform:
+
+```powershell
+open_gui.bat
+```
+
+```bash
+./open_gui.sh
 ```
 
 Defaults:
@@ -50,6 +62,7 @@ Notes:
 - Width and height preserve the original video aspect ratio.
 - If you set both width and height, the GIF is scaled to fit inside that box.
 - Start time and length accept seconds like `2.5` or time values like `00:00:02.500`.
+- On macOS/Linux, you may need to run `chmod +x open_gui.sh` once before using it.
 
 ## Script Usage
 
