@@ -1,4 +1,5 @@
-# VideoGifGenerator
+# Parametric Video Clip To Gif
+
 
 Convert a video clip into a GIF with either a simple desktop UI or a command-line script.
 
