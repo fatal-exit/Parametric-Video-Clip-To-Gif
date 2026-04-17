@@ -19,7 +19,11 @@ from video_to_gif import (
 )
 
 
-VIDEO_PATTERNS = " ".join(f"*{suffix}" for suffix in sorted(VIDEO_SUFFIXES))
+VIDEO_PATTERNS = " ".join(
+    pattern
+    for suffix in sorted(VIDEO_SUFFIXES)
+    for pattern in (f"*{suffix}", f"*{suffix.upper()}")
+)
 
 
 class VideoToGifApp:

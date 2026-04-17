@@ -46,6 +46,7 @@ Defaults:
 
 - the GUI looks for videos in `media/input`
 - the suggested output location is `media/output`
+- supported input formats include `.mp4`, `.mov`/`.MOV`, `.avi`, `.mkv`, `.webm`, `.wmv`, and `.m4v`
 
 What the GUI lets you set:
 
@@ -77,6 +78,7 @@ Defaults:
 
 - if `INPUT_VIDEO` is just a file name, it is loaded from `media/input`
 - if `OUTPUT_GIF` is just a file name, it is created in `media/output`
+- supported input formats include `.mp4`, `.mov`/`.MOV`, `.avi`, `.mkv`, `.webm`, `.wmv`, and `.m4v`
 
 Options:
 
